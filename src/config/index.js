@@ -4,7 +4,7 @@ dotenv.config()
 
 export default {
     baseUrl: process.env.BASE_URL || 'http://localhost',
-    port: process.env.PORT || 3000,
+    port: process.env.PORT || 8000,
     environment: process.env.NODE_ENV || 'development',
     dbUri: process.env.DB_URI || 'mongodb+srv://localhost:27017/recruitment',
 
